@@ -1,0 +1,43 @@
+date,amount,category,description
+01-01-2026,50000,Income,January Salary
+03-01-2026,1200,Expense,Grocery Shopping
+05-01-2026,800,Expense,Electricity Bill
+10-01-2026,2000,Expense,Mobile Recharge
+15-01-2026,5000,Income,Freelance Project
+20-01-2026,1500,Expense,Restaurant
+01-02-2026,50000,Income,February Salary
+04-02-2026,1000,Expense,Grocery Shopping
+08-02-2026,2500,Expense,Internet Bill
+14-02-2026,3000,Expense,Shopping
+01-03-2026,50000,Income,March Salary
+06-03-2026,1800,Expense,Groceries
+12-03-2026,2200,Expense,Transport
+18-03-2026,7000,Income,Bonus
+01-04-2026,50000,Income,April Salary
+05-04-2026,1600,Expense,Grocery Shopping
+10-04-2026,4000,Expense,New Shoes
+01-05-2026,50000,Income,May Salary
+07-05-2026,2000,Expense,Grocery Shopping
+15-05-2026,3500,Expense,Travel
+01-06-2026,50000,Income,June Salary
+06-06-2026,1800,Expense,Groceries
+12-06-2026,2800,Expense,Electricity Bill
+01-07-2026,50000,Income,July Salary
+04-07-2026,2000,Expense,Grocery Shopping
+09-07-2026,4500,Expense,Phone Purchase
+01-08-2026,50000,Income,August Salary
+05-08-2026,1700,Expense,Grocery Shopping
+20-08-2026,6000,Expense,Weekend Trip
+01-09-2026,50000,Income,September Salary
+03-09-2026,1900,Expense,Groceries
+15-09-2026,8000,Income,Freelance Work
+01-10-2026,50000,Income,October Salary
+06-10-2026,2200,Expense,Grocery Shopping
+12-10-2026,5000,Expense,Clothes Shopping
+01-11-2026,50000,Income,November Salary
+05-11-2026,2500,Expense,Grocery Shopping
+10-11-2026,4000,Expense,Diwali Expenses
+01-12-2026,50000,Income,December Salary
+08-12-2026,3000,Expense,Grocery Shopping
+20-12-2026,10000,Expense,Christmas Travel
+31-12-2026,15000,Income,Year End Bonus
