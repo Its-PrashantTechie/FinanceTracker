@@ -35,7 +35,7 @@ cd personal-finance-tracker
 Create a Python virtual environment (optional but recommended)
 ```
 ```bash
-Copy code
+
 python -m venv venv
 source venv/bin/activate  # Linux/macOS
 venv\Scripts\activate     # Windows
@@ -43,7 +43,7 @@ Install dependencies
 ```
 
 ```bash
-Copy code
+
 pip install -r requirements.txt
 # OR
 pip install pandas matplotlib
@@ -51,7 +51,7 @@ Run the app
 ```
 
 ```bash
-Copy code
+
 python main.py
 Follow the menu to add transactions, view reports, and plot cash flow.
 ```
