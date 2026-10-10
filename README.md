@@ -10,16 +10,23 @@ Uses **Pandas** for data handling and **Matplotlib** for visualizing trends.
 - 📊 View transactions within a specific date range  
 - 📈 Monthly Income vs Expense plot to visualize cash flow  
 - 🧾 Overall summary: total income, total expense, and net balance  
-- 🗄️ CSV Data Safety: automatically initializes CSV if missing or empty  
+- 🗄️ CSV Data Safety: automatically initializes CSV if missing or empty
+- 🌐 **NEW: Modern Web Interface** - Beautiful UI with real-time data visualization  
 
 ---
 
 ## 🗂️ Project Structure
 FinanceTracker/
 │
-├── main.py           # Main application logic  
+├── main.py           # CLI application logic  
+├── app.py            # Web application (Flask)  
 ├── data_entry.py     # Functions for user input  
 ├── finance_data.csv  # CSV file storing transactions  
+├── templates/        # HTML templates for web interface
+│   └── index.html    # Main web page
+├── static/           # Static assets for web interface
+│   ├── style.css     # Styling
+│   └── script.js     # JavaScript functionality
 ├── README.md         # Project description  
 ├── requirements.txt  # Dependencies  
 └── venv/             # Python virtual environment (optional)  
@@ -47,25 +54,56 @@ Install dependencies
 pip install -r requirements.txt
 # OR
 pip install pandas matplotlib
-Run the app
 ```
+
+**Run the CLI app**
 
 ```bash
-
 python main.py
-Follow the menu to add transactions, view reports, and plot cash flow.
 ```
 
-🧩 Tech Stack
+Follow the menu to add transactions, view reports, and plot cash flow.
+
+### 🌐 Running the Web Interface
+
+1. **Install dependencies** (if not already installed)
+
+```bash
+pip install -r requirements.txt
+```
+
+2. **Run the Flask web application**
+
+```bash
+python app.py
+```
+
+3. **Open your browser**
+
+Navigate to `http://127.0.0.1:5000` to access the web interface.
+
+The web interface provides:
+- Add transactions with a user-friendly form
+- View transactions in a date range with a beautiful table
+- See summary cards showing total income, expenses, and balance
+- Interactive income vs expense charts
+
+---
+
+## 🧩 Tech Stack
 Python 3+ – Application logic
 
 Pandas – Data handling and aggregation
 
 Matplotlib – Data visualization
 
+Flask – Web framework for the interface
+
 CSV – Persistent storage
 
-CLI – Command-line interface
+CLI – Command-line interface (original)
+
+Web Interface – Modern browser-based UI
 
 🎓 About
 This project is a hands-on Python project for managing personal finances.
