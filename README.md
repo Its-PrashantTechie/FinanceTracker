@@ -111,9 +111,14 @@ The modern web interface provides:
 
 ## 🎓 About
 
-This project is a hands-on Python application for managing personal finances. It helps you understand cash flow, spending patterns, and budgeting, while practicing Python, Pandas, Matplotlib, and Flask in a real-world context.
+This project was created to help individuals track their personal finances effectively. It started as a simple CLI application and evolved to include a modern web interface, making it accessible to users who prefer graphical interfaces over command-line tools.
 
-The project demonstrates both traditional CLI-based applications and modern web-based interfaces, making it suitable for learning full-stack Python development.
+Perfect for:
+- Students learning Python and web development
+- Anyone wanting to track their income and expenses
+- Developers interested in full-stack Python applications
+
+The project demonstrates practical use of Pandas for data analysis, Matplotlib for visualization, and Flask for web development, making it an excellent learning resource for understanding real-world application development.
 
 ---
 
