@@ -1,7 +1,11 @@
-# 💰 Personal Finance Tracker (Python CLI App)
+# 💰 Personal Finance Tracker
 
-A simple **Python CLI application** to track your **income and expenses**, visualize cash flow, and get insights into your spending habits.  
-Uses **Pandas** for data handling and **Matplotlib** for visualizing trends.
+A **Python application** to track your **income and expenses**, visualize cash flow, and get insights into your spending habits.  
+Features both a **CLI interface** and a **modern web interface**. Uses **Pandas** for data handling and **Matplotlib** for visualizing trends.
+
+[![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/downloads/)
+[![Flask](https://img.shields.io/badge/Flask-3.0%2B-green.svg)](https://flask.palletsprojects.com/)
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 ---
 
@@ -34,29 +38,44 @@ FinanceTracker/
 ---
 
 ## 🧠 How to Run
+
+### Option 1: Using the Web Interface (Recommended)
+
 1. **Clone the repository**
 
 ```bash
-git clone https://github.com/your-username/personal-finance-tracker.git
-cd personal-finance-tracker
-Create a Python virtual environment (optional but recommended)
+git clone https://github.com/Its-PrashantTechie/FinanceTracker.git
+cd FinanceTracker
 ```
-```bash
 
+2. **Create a Python virtual environment (recommended)**
+
+```bash
 python -m venv venv
-source venv/bin/activate  # Linux/macOS
 venv\Scripts\activate     # Windows
-Install dependencies
+# OR
+source venv/bin/activate  # Linux/macOS
 ```
+
+3. **Install dependencies**
 
 ```bash
-
 pip install -r requirements.txt
-# OR
-pip install pandas matplotlib
 ```
 
-**Run the CLI app**
+4. **Run the Flask web application**
+
+```bash
+python app.py
+```
+
+5. **Open your browser**
+
+Navigate to `http://127.0.0.1:5000` to access the web interface.
+
+### Option 2: Using the CLI Interface
+
+Follow steps 1-3 above, then run:
 
 ```bash
 python main.py
@@ -64,56 +83,71 @@ python main.py
 
 Follow the menu to add transactions, view reports, and plot cash flow.
 
-### 🌐 Running the Web Interface
+---
 
-1. **Install dependencies** (if not already installed)
+## � Web Interface Features
 
-```bash
-pip install -r requirements.txt
-```
-
-2. **Run the Flask web application**
-
-```bash
-python app.py
-```
-
-3. **Open your browser**
-
-Navigate to `http://127.0.0.1:5000` to access the web interface.
-
-The web interface provides:
-- Add transactions with a user-friendly form
-- View transactions in a date range with a beautiful table
-- See summary cards showing total income, expenses, and balance
-- Interactive income vs expense charts
+The modern web interface provides:
+- 📝 **Add transactions** with a user-friendly form (auto-fills today's date)
+- 📊 **View transactions** in a date range with a beautiful, sortable table
+- 💳 **Summary cards** showing total income, expenses, and net balance
+- 📈 **Interactive charts** for income vs expense visualization
+- 🎯 **Real-time notifications** for success/error messages
+- 📱 **Responsive design** that works on mobile and desktop
+- 🎨 **Beautiful UI** with modern gradient styling
 
 ---
 
 ## 🧩 Tech Stack
-Python 3+ – Application logic
 
-Pandas – Data handling and aggregation
+- **Python 3+** – Application logic
+- **Pandas** – Data handling and aggregation
+- **Matplotlib** – Data visualization
+- **Flask** – Web framework for the interface
+- **CSV** – Persistent storage
+- **HTML/CSS/JavaScript** – Frontend technologies
 
-Matplotlib – Data visualization
+---
 
-Flask – Web framework for the interface
+## 🎓 About
 
-CSV – Persistent storage
+This project is a hands-on Python application for managing personal finances. It helps you understand cash flow, spending patterns, and budgeting, while practicing Python, Pandas, Matplotlib, and Flask in a real-world context.
 
-CLI – Command-line interface (original)
+The project demonstrates both traditional CLI-based applications and modern web-based interfaces, making it suitable for learning full-stack Python development.
 
-Web Interface – Modern browser-based UI
+---
 
-🎓 About
-This project is a hands-on Python project for managing personal finances.
-It helps you understand cash flow, spending patterns, and budgeting, while practicing Python, Pandas, and Matplotlib in a real-world context.
+## ✨ Optional Enhancements (Future Work)
 
-✨ Optional Enhancements (Future Work)
-Category-wise monthly expense breakdown
+- Category-wise monthly expense breakdown
+- Monthly savings calculation and goals
+- Automatic CSV backup and corruption prevention
+- User authentication and multiple user support
+- Export data to Excel or PDF reports
+- Budget alerts and notifications
+- Database integration (SQLite/PostgreSQL) instead of CSV
+- Mobile app version using React Native
+- Dark mode theme for web interface
+- Data visualization with more chart types (pie charts, bar charts)
 
-Monthly savings calculation
+---
 
-Automatic CSV backup and corruption prevention
+## 📝 License
 
-Convert to a proper CLI tool with commands using argparse or click
+This project is open source and available under the MIT License.
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Feel free to:
+- Report bugs
+- Suggest new features
+- Submit pull requests
+- Improve documentation
+
+---
+
+## 📧 Contact
+
+For questions or suggestions, please open an issue on GitHub.
